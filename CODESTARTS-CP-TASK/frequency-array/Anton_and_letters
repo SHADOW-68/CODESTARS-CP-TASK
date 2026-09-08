@@ -1,1 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int arr[26]={},cnt=0;
+    string s;
+    getline(cin,s);
+    for(char &ch:s)
+    {
+        arr[ch-'a']++;
+    }
+    for(int i=0;i<26;i++)
+    {
+        if(arr[i]!=0)cnt++;
+    }
+    cout<<cnt;
+    return 0;
+}
 
