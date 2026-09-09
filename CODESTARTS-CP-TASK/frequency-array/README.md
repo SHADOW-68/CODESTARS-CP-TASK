@@ -9,12 +9,17 @@ presence checking, and counting distinct elements.
 
 ## Problem Statement
 
-Given a string of length `n`, determine whether it is a pangram.
+A word or a sentence in some language is called a pangram if all the characters of the alphabet of this language appear in it at least once. Pangrams are often used to demonstrate fonts in printing or test the output devices.
 
-A pangram is a string that contains every letter of the English alphabet
-at least once, regardless of whether the letters are uppercase or lowercase.
+You are given a string consisting of lowercase and uppercase Latin letters. Check whether this string is a pangram. We say that the string contains a letter of the Latin alphabet if this letter occurs in the string in uppercase or lowercase.
 
-Print `YES` if the string is a pangram, otherwise print `NO`.
+Input
+The first line contains a single integer n (1 ≤ n ≤ 100) — the number of characters in the string.
+
+The second line contains the string. The string consists only of uppercase and lowercase Latin letters.
+
+Output
+Output "YES", if the string is a pangram and "NO" otherwise.
 
 ## Approach / Intuition
 
@@ -77,16 +82,15 @@ See:
 
 ## Problem Statement
 
-Anton has a set of lowercase English letters written inside curly brackets.
+Recently, Anton has found a set. The set consists of small English letters. Anton carefully wrote out all the letters from the set in one line, separated by a comma. He also added an opening curved bracket at the beginning of the line and a closing curved bracket at the end of the line.
 
-The letters may appear multiple times.
+Unfortunately, from time to time Anton would forget writing some letter and write it again. He asks you to count the total number of distinct letters in his set.
 
-Determine how many different letters are present in the set.
+Input
+The first and the single line contains the set of letters. The length of the line doesn't exceed 1000. It is guaranteed that the line starts from an opening curved bracket and ends with a closing curved bracket. Between them, small English letters are listed, separated by a comma. Each comma is followed by a space.
 
-For example:
-
-`{a, b, c, a}`
-
+Output
+Print a single number — the number of distinct letters in Anton's set.
 contains 3 distinct letters: `a`, `b`, and `c`.
 
 ## Approach / Intuition
