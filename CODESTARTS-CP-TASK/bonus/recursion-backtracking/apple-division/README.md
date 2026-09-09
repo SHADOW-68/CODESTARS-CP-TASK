@@ -1,5 +1,5 @@
 # Apple Division
-Source: https://cses.fi/problemset/task/1628/
+Source:https://cses.fi/ckvo8q5wh/task/1623
 
 ## Problem Statement
 Divide the apples into two groups so that the difference between their total weights is minimized.
